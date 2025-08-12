@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astronomy is fascinating</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <h1 id="heading">NASA ASTRONOMY PICTURE OF THE DAY</h1>
+      </div>
+      <div id="date">
+        <input type="date" id="date_input" />
+      </div>
+    </header>
+    <main>
+      <div id="picture_name"></div>
+      <div id="picture"></div>
+      <div id="description"></div>
+    </main>
+    <footer>
+      <div id="facts">
+        <b>Random space facts <i class="fa-solid fa-arrow-right"></i></b>
+        <div id="fetched_facts"></div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    document.getElementById("date_input").valueAsDate = new Date();
+  </script>
+</html>
