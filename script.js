@@ -16,7 +16,6 @@ function fetchSpaceFact() {
     .then((response) => response.text())
     .catch((error) => {
       console.log("Error fetching space facts:", error);
-      // Return fallback fact when API fails
       const fallbackFacts = [
         "A day on Venus is longer than its year!",
         "Jupiter has 95 known moons!",
