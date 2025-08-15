@@ -21,6 +21,9 @@ function fetchSpaceFact() {
         "Jupiter has 95 known moons!",
         "The Sun accounts for 99.86% of all mass in our solar system!",
         "Light from the Sun takes 8 minutes to reach Earth!",
+        "Space is a vacuum, meaning there's no medium for sound waves to travel, so it's completely silent. Astronauts rely on radios to communicate because radio waves can travel in a vacuum",
+        "The footprints left by astronauts on the Moon will remain there for millions of years because there's no wind or water to erode them.",
+        "A spoonful of a neutron star would weigh about 6 billion tons!",
       ];
       return fallbackFacts[Math.floor(Math.random() * fallbackFacts.length)];
     });
